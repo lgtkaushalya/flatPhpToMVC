@@ -2,7 +2,7 @@
 function open_database_connection()
 {
   $link = mysql_connect('localhost', 'root', 'root');
-  mysql_select_db('blog_db', $link);
+  mysql_select_db('blogs', $link);
   return $link;
 }
 
